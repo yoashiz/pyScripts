@@ -8,4 +8,5 @@ def get_host_recon(options, ip):
     return results
 
 
+# change ip to real ip address '127.0.0.1'
 print(get_host_recon('-o', 'ip'))
